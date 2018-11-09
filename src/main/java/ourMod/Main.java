@@ -1,7 +1,7 @@
-package kevinsMod;
+package ourMod;
 
-import kevinsMod.proxy.CommonProxy;
-import kevinsMod.util.Reference;
+import angelsMod.proxy.CommonProxy;
+import angelsMod.utils.Reference;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.Mod.EventHandler;
 import net.minecraftforge.fml.common.Mod.Instance;

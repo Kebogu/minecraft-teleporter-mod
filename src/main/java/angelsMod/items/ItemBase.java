@@ -1,10 +1,10 @@
 package angelsMod.items;
 
-import angelsMod.Main;
 import angelsMod.init.ModItems;
 import angelsMod.utils.IHasModel;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.Item;
+import ourMod.Main;
 
 public class ItemBase extends Item implements IHasModel{
 	

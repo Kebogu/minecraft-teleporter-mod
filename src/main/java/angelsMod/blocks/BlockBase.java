@@ -1,6 +1,5 @@
 package angelsMod.blocks;
 
-import angelsMod.Main;
 import angelsMod.init.ModBlocks;
 import angelsMod.init.ModItems;
 import angelsMod.utils.IHasModel;
@@ -9,6 +8,7 @@ import net.minecraft.block.material.Material;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemBlock;
+import ourMod.Main;
 
 public class BlockBase extends Block implements IHasModel {
 

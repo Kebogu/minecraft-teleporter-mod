@@ -11,5 +11,5 @@ public class ModItems {
 	
 	public static final List<Item> ITEMS = new ArrayList<Item>();
 	//adds item 
-	public static final Item SOULSTONE = new ItemBase("soul stone");
+//	public static final Item SOULSTONE = new ItemBase("soul_stone");
 }

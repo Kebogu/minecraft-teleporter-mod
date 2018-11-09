@@ -1,10 +1,14 @@
 package kevinsMod.items;
 
-import kevinsMod.Main;
+
+
+
 import kevinsMod.init.ModItems;
 import kevinsMod.util.IHasModel;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.Item;
+import ourMod.Main;
+
 
 public class ItemBase extends Item implements IHasModel{
 	
