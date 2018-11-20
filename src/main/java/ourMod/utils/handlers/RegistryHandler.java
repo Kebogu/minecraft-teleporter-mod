@@ -1,13 +1,14 @@
-package kevinsMod.util.handlers;
+package ourMod.utils.handlers;
 
-
-import kevinsMod.init.ModItems;
-import kevinsMod.util.IHasModel;
+import net.minecraft.block.Block;
 import net.minecraft.item.Item;
 import net.minecraftforge.client.event.ModelRegistryEvent;
 import net.minecraftforge.event.RegistryEvent;
 import net.minecraftforge.fml.common.Mod.EventBusSubscriber;
 import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
+import ourMod.init.ModBlocks;
+import ourMod.init.ModItems;
+import ourMod.utils.IHasModel;
 
 @EventBusSubscriber
 public class RegistryHandler {
@@ -17,13 +18,24 @@ public class RegistryHandler {
 		event.getRegistry().registerAll(ModItems.ITEMS.toArray(new Item[0]));
 
 	}
-	
+	@SubscribeEvent
+	public static void onBlockRegister(RegistryEvent.Register<Block> event) {
+		event.getRegistry().registerAll(ModBlocks.BLOCKS.toArray(new Block[0]));
+
+	}
 	@SubscribeEvent
 	public static void onModelRegister(ModelRegistryEvent event) {
 		for(Item item : ModItems.ITEMS) {
 			if(item instanceof IHasModel) {
 				((IHasModel)item).registerModels();
 			}
+				
+		}
+		for(Block block : ModBlocks.BLOCKS) {
+			if(block instanceof IHasModel) {
+				((IHasModel)block).registerModels();
+			}
+				
 		}
 	}
 }

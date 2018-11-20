@@ -1,4 +1,4 @@
-package angelsMod.proxy;
+package ourMod.proxy;
 
 import net.minecraft.item.Item;
 

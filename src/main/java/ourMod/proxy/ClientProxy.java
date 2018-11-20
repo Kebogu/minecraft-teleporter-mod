@@ -1,4 +1,4 @@
-package kevinsMod.proxy;
+package ourMod.proxy;
 
 import net.minecraft.client.renderer.block.model.ModelResourceLocation;
 import net.minecraft.item.Item;

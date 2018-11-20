@@ -1,17 +1,17 @@
-package angelsMod.items;
+package ourMod.items;
 
-import angelsMod.init.ModItems;
-import angelsMod.utils.IHasModel;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.Item;
 import ourMod.Main;
+import ourMod.init.ModItems;
+import ourMod.utils.IHasModel;
 
 public class ItemBase extends Item implements IHasModel{
 	
 	public ItemBase(String name) {
 		setUnlocalizedName(name);
 		setRegistryName(name);
-		setCreativeTab(CreativeTabs.BUILDING_BLOCKS);
+		setCreativeTab(CreativeTabs.MATERIALS);
 		ModItems.ITEMS.add(this);
 	}
 
