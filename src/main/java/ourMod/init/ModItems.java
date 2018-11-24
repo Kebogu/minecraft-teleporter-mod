@@ -13,4 +13,6 @@ public class ModItems {
 	//adds item 
 //	public static final Item TESERACT = new ItemBase("teseract");
 	public static final Item SOULSTONE = new ItemBase("soul_stone");
+	public static final Item BLUE_IGNOT = new ItemBase("blue_ignot");
+
 }

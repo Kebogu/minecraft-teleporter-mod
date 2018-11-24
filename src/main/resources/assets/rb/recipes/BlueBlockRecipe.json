@@ -1,0 +1,28 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        "RRR",
+        "RIR",
+        "RRR"
+    ],
+    
+    "key":
+    {
+        "R":
+        {
+            "item": "rb:blue_ingot"
+        }
+        "I":
+        {
+            "item": "rb:soul_stone"
+        }
+    },
+    
+    "result":
+    {
+        "item": "rb:blue_block",
+        "count": 1
+    }
+}

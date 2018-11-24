@@ -1,2 +1,9 @@
 //Items
 item.teseract.name=Teseract
+item.soul_stone.name=Soul Stone
+item.blue_ignot.name=Blue Ignot
+
+
+//Blocks
+tile.blue_block.name=Blue Block
+tile.blue_ore.name=Blue Ore
