@@ -1,0 +1,18 @@
+{ 
+    "type": "minecraft:crafting_shapeless",
+
+    "ingredients": 
+    [
+
+    {
+      "item": "rb:blue_block"
+    }
+    
+    ],
+
+    "result": 
+    {
+        "item": "rb:blue_ignot",
+        "count": 9
+    }
+}

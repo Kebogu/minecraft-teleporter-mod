@@ -3,9 +3,9 @@
     
     "pattern":
     [
-        "RRR",
-        "RRR",
-        "RRR"
+        "RR ",
+        " I ",
+        " I "
     ],
     
     "key":
@@ -13,12 +13,17 @@
         "R":
         {
             "item": "rb:blue_ignot"
+        },
+        
+        "I":
+        {
+            "item": "minecraft:stick"
         }
     },
     
     "result":
     {
-        "item": "rb:blue_block",
+        "item": "rb:blue_hoe",
         "count": 1
     }
 }

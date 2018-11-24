@@ -3,6 +3,8 @@
  "modid": "rb",
  "name": "Roblox",
  "description": "New Block",
+ "version": "1.0",
+ "mcversion": "1.12.2",
  "authorList": ["Kevin and Angel"],
  "credits": "Yes"
 }

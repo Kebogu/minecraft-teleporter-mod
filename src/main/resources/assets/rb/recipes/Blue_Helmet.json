@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "###",
+        "# #",
+        "   "
+    ],
+    "key": {
+        "#": {
+            "item": "rb:blue_ignot"
+        }
+    },
+    "result": {
+        "item": "rb:blue_helmet",
+        "count": 1
+    }
+}

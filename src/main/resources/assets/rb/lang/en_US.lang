@@ -1,0 +1,26 @@
+
+//Items
+item.teseract.name=Teseract
+item.soul_stone.name=Soul Stone
+item.blue_ignot.name=Blue Ignot
+
+//Blocks
+tile.blue_block.name=Blue Block
+tile.blue_ore.name=Blue Ore
+
+//Tools
+item.blue_sword.name=Blue Sword
+item.blue_pickaxe.name=Blue Pickaxe
+item.blue_axe.name=Blue Axe
+item.blue_hoe.name=Blue Hoe 
+item.blue_shovel.name=Blue Shovel
+item.demon_sword.name=Demon Sword
+
+
+//Armor
+item.blue_helmet.name=Blue Helmet
+item.blue_chestplate.name=Blue Chestplate
+item.blue_leggings.name=Blue Leggings
+item.blue_boots.name=Blue Boots 
+
+

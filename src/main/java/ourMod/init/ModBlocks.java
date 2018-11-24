@@ -14,7 +14,7 @@ public class ModBlocks {
 	public static final List<Block> BLOCKS = new ArrayList<Block>();
 	
 	public static final Block BLUE_BLOCK = new BlueBlock("blue_block",Material.IRON);
-	public static final Block BLUE_ORE = new BlueOre("blue_ore",Material.IRON);
+	public static final Block BLUE_ORE = new BlueOre("blue_ore",Material.ROCK);
 
 //	public static final Block BLUE_BLOCK = new BlockBase("blue_block",Material.IRON);
 }

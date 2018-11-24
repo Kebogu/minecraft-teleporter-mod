@@ -7,10 +7,13 @@ import net.minecraftforge.fml.common.SidedProxy;
 import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
+import net.minecraftforge.fml.common.registry.GameRegistry;
+import ourMod.init.ModRecipes;
 import ourMod.proxy.CommonProxy;
 import ourMod.utils.Reference;
+import ourMod.world.ModWorldGen;
 
-@Mod(modid = Reference.MOD_ID, name = Reference.NAME)
+@Mod(modid = Reference.MOD_ID, name = Reference.NAME, version = Reference.VERSION)
 public class Main {
 
 	@Instance
@@ -22,12 +25,12 @@ public class Main {
 	@EventHandler
 	public static void PreInit(FMLPreInitializationEvent event)
 	{
-		
+		GameRegistry.registerWorldGenerator(new ModWorldGen(), 3);
 	}
 	@EventHandler
 	public static void init(FMLInitializationEvent event)
 	{
-		
+		ModRecipes.init(); 
 	}
 	@EventHandler
 	public static void Postinit(FMLPostInitializationEvent event)
