@@ -15,6 +15,10 @@ public class ModBlocks {
 	
 	public static final Block BLUE_BLOCK = new BlueBlock("blue_block",Material.IRON);
 	public static final Block BLUE_ORE = new BlueOre("blue_ore",Material.ROCK);
+	
+//making new teleBlock v
+	public static final Block TELE_BLOCK = new BlockBase("tele_block",Material.CIRCUITS);
+//making new teleBlock ^ made it "new BlockBase instead of TeleBlock, need to analize that	
 
 //	public static final Block BLUE_BLOCK = new BlockBase("blue_block",Material.IRON);
 }
