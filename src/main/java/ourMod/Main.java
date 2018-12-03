@@ -1,5 +1,7 @@
 package ourMod;
 
+
+
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.Mod.EventHandler;
 import net.minecraftforge.fml.common.Mod.Instance;
@@ -11,6 +13,7 @@ import net.minecraftforge.fml.common.registry.GameRegistry;
 import ourMod.init.ModRecipes;
 import ourMod.proxy.CommonProxy;
 import ourMod.utils.Reference;
+import ourMod.utils.handlers.RegistryHandler;
 import ourMod.world.ModWorldGen;
 
 @Mod(modid = Reference.MOD_ID, name = Reference.NAME, version = Reference.VERSION)
@@ -26,15 +29,19 @@ public class Main {
 	public static void PreInit(FMLPreInitializationEvent event)
 	{
 		GameRegistry.registerWorldGenerator(new ModWorldGen(), 3);
+		
 	}
+	
 	@EventHandler
 	public static void init(FMLInitializationEvent event)
 	{
 		ModRecipes.init(); 
+		RegistryHandler.initRegistries(event);
 	}
 	@EventHandler
 	public static void Postinit(FMLPostInitializationEvent event)
 	{
 		
 	}
+	
 }
